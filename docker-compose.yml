@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: dockerhandson/spring-boot-mongo:latest
+    image: 13.233.151.224:8083/spring-boot-mongo:latest
     restart: always
     container_name: springboot
     ports:
