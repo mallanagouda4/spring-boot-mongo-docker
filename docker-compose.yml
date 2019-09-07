@@ -19,7 +19,7 @@ services:
         condition: on-failure   
 
   mongo:
-    image: mongo
+    image: 172.31.7.73:8083/mongo
     container_name: springboot-mongo
 #    ports:  # for demo/debug purpose only
 #      - 27018:27017
