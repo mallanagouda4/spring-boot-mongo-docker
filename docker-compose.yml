@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: spring-boot-mongo:latest
+    image: 172.31.7.73:8083/spring-boot-mongo:latest
     restart: always
     container_name: springboot
     ports:
